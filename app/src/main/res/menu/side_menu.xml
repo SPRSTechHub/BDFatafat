@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/opHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/opWithdraw"
+            android:icon="@drawable/ic_withdraw"
+            android:title="Withdraw" />
+        <item
+            android:id="@+id/opReferAndEarn"
+            android:icon="@drawable/ic_share"
+            android:title="Refer &amp; Earn" />
+        <item
+            android:id="@+id/opTransactionHistory"
+            android:icon="@drawable/ic_transcation"
+            android:title="Transaction History" />
+        <!--        <item android:icon="@drawable/ic_game_timing" android:id="@+id/opGameTiming" android:title="Game Timing"/>-->
+        <item
+            android:id="@+id/opGameRule"
+            android:icon="@drawable/ic_rule"
+            android:title="Game Rule" />
+        <item
+            android:id="@+id/opWhatsapp"
+            android:icon="@drawable/ic_whatsapp"
+            android:title="What&apos;s app" />
+        <item
+            android:id="@+id/opContactUs"
+            android:icon="@drawable/ic_contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/opLogout"
+            android:title="Logout" />
+    </group>
+</menu>
